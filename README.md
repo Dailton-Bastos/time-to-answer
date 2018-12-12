@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Sistema de perguntas e respostas  
+**Projeto do curso de** [Ruby on Rails 5.x](https://www.udemy.com/rubyonrails-5x/)
+Criado por Jackson Pires, [Vídeos de Ti - Cursos EAD](https://www.videosdeti.com.br/)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
++ Ruby: 2.5.1
++ Rails: 5.2.1
++ Yarn 1.12.3
