@@ -22,3 +22,10 @@ Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css
                                                   img.png )
 # vendor/assets
 Rails.application.config.assets.precompile += %w( jquery-2.2.3/dist/jquery.js )
+
+#ServiceWorker::Rails
+Rails.application.configure do
+  config.assets.precompile += %w[
+    serviceworker.js
+  ]
+end
