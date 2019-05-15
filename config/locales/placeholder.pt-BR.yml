@@ -1,0 +1,9 @@
+"pt-BR":
+  admin:
+    email: Email %{model}
+    password: Senha
+    password_confirmation: Confirmação da senha
+  subject:
+    description: Descrição do %{model}
+  question:
+    description: Descrição da %{model}
