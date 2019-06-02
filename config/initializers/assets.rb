@@ -14,7 +14,8 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
 # app/assets
 Rails.application.config.assets.precompile += %w( admins_backoffice.js admins_backoffice.css 
-                                                  users_backoffice.js users_backoffice.css )
+                                                  users_backoffice.js users_backoffice.css 
+                                                  admin_devise.js admin_devise.css )
 
 # lib/assets
 Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css
@@ -22,10 +23,3 @@ Rails.application.config.assets.precompile += %w( sb-admin-2.js sb-admin-2.css
                                                   img.png )
 # vendor/assets
 Rails.application.config.assets.precompile += %w( jquery-2.2.3/dist/jquery.js )
-
-#ServiceWorker::Rails
-Rails.application.configure do
-  config.assets.precompile += %w[
-    serviceworker.js
-  ]
-end
