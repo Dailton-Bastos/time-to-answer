@@ -31,5 +31,5 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# Bootstrap
-/public/templates/bootstrap-3.3.7
+# Bootstrap e templates
+/public/templates
