@@ -10,7 +10,7 @@ class CEP
   end
 
   def endereco
-    "Logradouro: #{@logradouro} / Bairro: #{@bairro} / Cidade: #{@localidade} / UF: #{@uf}"
+    "#{@logradouro} / #{@bairro} / #{@localidade} / #{@uf}"
   end
   
 
